@@ -40,7 +40,8 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* Use important to override link colors for <a> elements */
+    color: black !important;
+    /* Use important to override link colors for <a> elements */
     border: 1px solid black;
 }
 
@@ -93,6 +94,21 @@ a.category-badge>span.badge:hover {
 .update-link,
 .remove-item {
     cursor: pointer;
+}
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
 }
 
 /* -------------------------------- Media Queries */
